@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Jasmine-Node Debugging",
+            "cwd": "${workspaceRoot}",
+            "program": "${workspaceRoot}/node_modules/jasmine-node/lib/jasmine-node/cli.js",
+            "request": "launch",
+            "type": "node",
+			"sourceMaps": true,
+            "args": [
+                "tests.js"
+            ]
+        }
+    ]
+}

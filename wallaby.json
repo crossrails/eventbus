@@ -1,0 +1,14 @@
+{
+  "testFramework": "jasmine",
+  "files": [
+      "eventbus.ts"
+  ],
+  "tests": [
+      "tests.ts"
+  ],
+  "env" : {
+      "type": "node",
+      "runner": "node"      
+  },
+  "reportConsoleErrorAsError": false
+}

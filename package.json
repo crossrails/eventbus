@@ -1,0 +1,29 @@
+{
+  "name": "eventbus",
+  "version": "0.1.0",
+  "description": "A simple event bus written in typescript utilising decorators and relect metadata",
+  "main": "eventbus.js",
+  "typings": "eventbus.d.ts",
+  "scripts": {
+    "test": "jasmine JASMINE_CONFIG_PATH=jasmine.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crossrails/eventbus.git"
+  },
+  "author": "Nicholas Bransby-Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crossrails/eventbus/issues"
+  },
+  "homepage": "https://github.com/crossrails/eventbus#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.1.8",
+    "typescript": "^2.0.2"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.2",
+    "jasmine-node": "^1.14.5",
+    "@types/jasmine": "^2.2.33"
+  }
+}
